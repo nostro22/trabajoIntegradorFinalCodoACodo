@@ -1,0 +1,7 @@
+config\DBConn.class
+database\MascotaDAO.class
+database\UsuarioDAO.class
+controller\MascotaController.class
+model\Mascota.class
+controller\UsuarioController.class
+model\Usuario.class

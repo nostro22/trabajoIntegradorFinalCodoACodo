@@ -1,0 +1,46 @@
+header {
+    height: 15%;
+}
+main {
+    height: 75%;
+}
+body{
+    min-height: 80%;
+}
+.fondo{
+    background-image: url("../img/fondoHuellasColores.jpg");
+    height: 100%;
+  
+}
+label{
+    display: flex;
+    text-align: end;
+    justify-content: end;
+}
+footer {
+    height: 10%;
+    
+}
+
+form {
+    background-color: lightsteelblue;
+}
+
+#div1 {
+    background-color: orange;
+}
+
+.card {
+    min-height: 40vh;
+    max-height: 1em;
+     z-index: 0;
+}
+
+#tabla{
+     overflow: scroll;
+}
+
+.hambuerguesaDrop
+{
+    z-index: 2;
+}
