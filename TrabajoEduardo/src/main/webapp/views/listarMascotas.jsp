@@ -36,11 +36,11 @@
                         clase = " bg-success text-light justify-content-between col-md-3 col-sm-12";
                     }%>
                 <tr  class="<%= clase%>">
-                    <td class="card-title"> <%= elem.getNombre()%> </h5>
-                    <td class="card-text"><%= elem.getRaza()%></p>
-                    <td class="card-text text-info"><%= elem.getDonante()%></p>
-                    <td class="card-text text-warning"><%= elem.getEdad()%></p>
-                    <td class="card-text text-warning"><%= elem.getCliente()%></p>
+                    <td class="card-text text-info"><%= elem.getDonante()%></td>
+                    <td class="card-title"> <%= elem.getNombre()%> </td>
+                    <td class="card-text"><%= elem.getRaza()%></td>
+                    <td class="card-text text-warning"><%= elem.getEdad()%></td>
+                    <td class="card-text text-warning"><%= elem.getCliente()%></td>
 
 
 

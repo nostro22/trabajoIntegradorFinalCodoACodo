@@ -72,7 +72,7 @@ public class MascotaController extends HttpServlet {
                     actualMascota = new Mascota(nombre,  raza,  cliente,  donante,  edad);
                     regs_afectados = mascotaDao.createMascota(actualMascota);
                     session.setAttribute("aCreado", regs_afectados);
-                    response.sendRedirect("/centro/views/anuncioCreado.jsp");
+                    response.sendRedirect("/centro/views/MascotaPublicada.jsp");
                     break;
                     
                 case "/obtenerLista":                    
